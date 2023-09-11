@@ -30,12 +30,12 @@
 <body class="lato-font">
 
     <header class="w-4/5 mx-auto">
+
+
+        <!-- nevigation section here  -->
         <nav class="py-12">
             <div class="navbar rounded-full bg-[#f85559] lg:px-12 lg:py-8">
-
-
                 <!-- naigation items  -->
-
                 <div class="navbar-start hidden lg:flex text-white">
                     <ul class="menu menu-horizontal px-1 text-lg">
                         <li><a>Home</a></li>
@@ -44,12 +44,11 @@
                         <li><a>All Fruits</a></li>
                     </ul>
                 </div>
-
+                <!-- logo  -->
                 <div class="navbar-center text-white">
                     <img src="images/logo.png" alt="">
                     <h2 class="text-xl md:text-2xl lg:text-3xl font-bold ps-3">Fruit Brust</h2>
                 </div>
-
                 <!-- nevigation search field  -->
                 <div class=" navbar-end  relative hidden lg:flex">
 
@@ -64,10 +63,9 @@
                     </button>
                 </div>
 
-
                 <div class="mx-auto">
                     <div class="dropdown">
-                        <label tabindex="0" class="btn btn-ghost lg:hidden">
+                        <label tabindex="0" class="btn text-white border-0  bg-[#f85559] lg:hidden">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M4 6h16M4 12h8m-8 6h16" />
@@ -81,11 +79,68 @@
                         </ul>
                     </div>
                 </div>
-
             </div>
-
         </nav>
 
+
+        <!-- banner section here  -->
+        <section>
+            <div class="carousel w-full rounded-2xl">
+                <!-- slide-1  -->
+                <div style="background-image: url(images/banner1.png);" id="slide1"
+                    class="carousel-item relative w-full">
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide4" class="btn btn-circle bg-black text-white">❮</a>
+                        <div class="text-center text-white">
+                            <h1 class="text-2xl lg:text-5xl font-extrabold ">Exotic tastes at your <br> doorstep</h1>
+                            <p class="py-1 lg:py-4">We supply highly quality organic products</p>
+                            <button class="btn bg-[#f85559] text-white font-bold">Shop Now</button>
+                        </div>
+                        <a href="#slide2" class="btn btn-circle  bg-black text-white">❯</a>
+                    </div>
+                </div>
+                <!-- slide-2  -->
+                <div style="background-image: url(images/banner2.png);" id="slide2"
+                    class="carousel-item relative w-full">
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle  bg-black text-white">❮</a>
+                        <div class="text-center text-white">
+                            <h1 class="text-2xl lg:text-5xl font-extrabold ">Exotic tastes at your <br> doorstep</h1>
+                            <p class="py-1 lg:py-4">We supply highly quality organic products</p>
+                            <button class="btn bg-[#f85559] text-white font-bold">Shop Now</button>
+                        </div>
+                        <a href="#slide3" class="btn btn-circle  bg-black text-white">❯</a>
+                    </div>
+                </div>
+                <!-- slide-3  -->
+                <div style="background-image: url(images/banner3.png);" id="slide3"
+                    class="carousel-item relative w-full">
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2" class="btn btn-circle  bg-black text-white">❮</a>
+                        <div class="text-center text-white">
+                            <h1 class="text-2xl lg:text-5xl font-extrabold ">Exotic tastes at your <br> doorstep</h1>
+                            <p class="py-1 lg:py-4">We supply highly quality organic products</p>
+                            <button class="btn bg-[#f85559] text-white font-bold">Shop Now</button>
+                        </div>
+                        <a href="#slide4" class="btn btn-circle  bg-black text-white">❯</a>
+                    </div>
+                </div>
+                <!-- slide-4  -->
+                <div style="background-image: url(images/banner4.png);" id="slide4"
+                    class="carousel-item relative w-full">
+                    <img src="/images/banner4.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide3" class="btn btn-circle  bg-black text-white">❮</a>
+                        <div class="text-center text-white">
+                            <h1 class="text-2xl lg:text-5xl font-extrabold ">Exotic tastes at your <br> doorstep</h1>
+                            <p class="py-1 lg:py-4">We supply highly quality organic products</p>
+                            <button class="btn bg-[#f85559] text-white font-bold">Shop Now</button>
+                        </div>
+                        <a href="#slide1" class="btn btn-circle  bg-black text-white">❯</a>
+                    </div>
+                </div>
+            </div>
+        </section>
     </header>
 
 
